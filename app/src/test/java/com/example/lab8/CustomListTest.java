@@ -23,8 +23,15 @@ public class CustomListTest {
      *for the first phase it will be
      empty * @param city
      */
+    /**
+     * this adds a city object to the list
+     *the second phase, you can add the
+     city * @param city
+     */
     public void addCity(City city){
+        cities.add(city);
     }
+
     private CustomList list;
     /**
      * create a mocklist for my citylist
